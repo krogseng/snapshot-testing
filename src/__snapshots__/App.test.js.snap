@@ -1,0 +1,71 @@
+exports[`test renders a snapshot 1`] = `
+<div
+  className="App">
+  <div
+    className="App-header">
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg" />
+    <h3>
+      Welcome to React
+    </h3>
+  </div>
+  <p
+    className="App-intro">
+    To get started,  edit
+    <code>
+      src/App.js
+    </code>
+     and save to reload. Actually, I\'m working on Positive Counter
+  </p>
+  <span>
+    Value: 
+    0
+    <button
+      className="decrement"
+      onClick={[Function]}>
+      −
+    </button>
+    <button
+      className="increment"
+      onClick={[Function]}>
+      +
+    </button>
+  </span>
+</div>
+`;
+
+exports[`test should not go negative 1`] = `
+<span>
+  Value: 
+  0
+  <button
+    className="decrement"
+    onClick={[Function]}>
+    −
+  </button>
+  <button
+    className="increment"
+    onClick={[Function]}>
+    +
+  </button>
+</span>
+`;
+
+exports[`test should render 2 1`] = `
+<span>
+  Value: 
+  2
+  <button
+    className="decrement"
+    onClick={[Function]}>
+    −
+  </button>
+  <button
+    className="increment"
+    onClick={[Function]}>
+    +
+  </button>
+</span>
+`;
